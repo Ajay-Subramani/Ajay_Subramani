@@ -48,7 +48,7 @@ const Navigation = () => {
            className="text-2xl font-bold text-white"
 
           >
-            
+            AS
           </a>
 
           {/* Desktop Navigation */}
