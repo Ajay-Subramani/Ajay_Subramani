@@ -56,13 +56,14 @@ const Skills = () => {
     },
     {
       title: "Data & ML",
-      skills: ["Pandas", "Matplotlib", "Seaborn", "Streamlit"]
+      skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "Streamlit"]
     }
   ];
 
   return (
-    <section id="skills" className="py-20 px-4">
-      <div className="container mx-auto max-w-6xl">
+    <section id="skills" className="py-20 px-4 relative">
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920')] bg-cover bg-center opacity-5"></div>
+      <div className="container mx-auto max-w-6xl relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-foreground">
           Technical Skills
         </h2>
