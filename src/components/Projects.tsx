@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ShoppingCart, Store, Droplet, MessageCircle, TrendingUp } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ShoppingCart, Store, Droplet, MessageCircle, TrendingUp, Github } from "lucide-react";
 import { useState } from "react";
 
 const Projects = () => {
@@ -17,7 +18,8 @@ const Projects = () => {
         "Built comprehensive product management dashboard for store administrators to manage inventory, track sales analytics, and monitor customer shopping patterns"
       ],
       status: "Ongoing",
-      icon: ShoppingCart
+      icon: ShoppingCart,
+      githubUrl: "https://github.com"
     },
     {
       title: "E-Commerce Website",
@@ -29,7 +31,8 @@ const Projects = () => {
         "Planning Spring Security authentication implementation with JWT tokens for enhanced security, user session management, and role-based access control for admin and customer portals"
       ],
       status: "Ongoing",
-      icon: Store
+      icon: Store,
+      githubUrl: "https://github.com"
     },
     {
       title: "Blood Bank Management System",
@@ -41,7 +44,8 @@ const Projects = () => {
         "Optimized complex database queries using indexing strategies and query optimization techniques, resulting in 50% faster response times for critical operations like blood availability checks and donor history retrieval"
       ],
       status: "Completed",
-      icon: Droplet
+      icon: Droplet,
+      githubUrl: "https://github.com"
     },
     {
       title: "Real-Time Chat Application",
@@ -53,7 +57,8 @@ const Projects = () => {
         "Utilized MongoDB Atlas cloud database for scalable and distributed data storage, implementing efficient message indexing and aggregation pipelines for chat history retrieval and user conversation management"
       ],
       status: "Completed",
-      icon: MessageCircle
+      icon: MessageCircle,
+      githubUrl: "https://github.com"
     },
     {
       title: "Crime Rate Analyzer Tool",
@@ -65,7 +70,8 @@ const Projects = () => {
         "Built and trained multiple forecasting models using time-series analysis techniques and machine learning algorithms for accurate crime rate prediction, incorporating seasonal trends, historical patterns, and demographic factors to improve prediction accuracy"
       ],
       status: "Completed",
-      icon: TrendingUp
+      icon: TrendingUp,
+      githubUrl: "https://github.com"
     }
   ];
 
@@ -140,7 +146,7 @@ const Projects = () => {
                         ))}
                       </ul>
                       
-                      <div className="flex flex-wrap gap-2">
+                      <div className="flex flex-wrap gap-2 mb-4">
                         {project.technologies.map((tech, i) => (
                           <Badge 
                             key={i} 
@@ -151,6 +157,22 @@ const Projects = () => {
                           </Badge>
                         ))}
                       </div>
+                      
+                      <Button
+                        asChild
+                        size="sm"
+                        className="bg-primary hover:bg-primary/90"
+                      >
+                        <a 
+                          href={project.githubUrl} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2"
+                        >
+                          <Github className="h-4 w-4" />
+                          View on GitHub
+                        </a>
+                      </Button>
                     </div>
                   </div>
                 )}
