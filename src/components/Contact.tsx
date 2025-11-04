@@ -7,7 +7,7 @@ const Contact = () => {
     <section id="contact" className="py-20 px-4">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          <span className="bg-gradient-accent bg-clip-text text-transparent">Get In Touch</span>
+          <span className="text-foreground">Get In Touch</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Let's collaborate on your next project or discuss opportunities

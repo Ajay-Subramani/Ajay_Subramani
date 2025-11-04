@@ -73,7 +73,7 @@ const Projects = () => {
     <section id="projects" className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          <span className="bg-gradient-accent bg-clip-text text-transparent">Projects</span>
+          <span className="text-foreground">Projects</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Building scalable applications that solve real-world problems
