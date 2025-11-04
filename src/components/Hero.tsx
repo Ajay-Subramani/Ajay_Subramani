@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center md:text-left space-y-6 animate-slide-up">
             <h1 className="text-5xl md:text-7xl font-bold">
-              Hi, I'm <span className="bg-gradient-accent bg-clip-text text-transparent">Ajay S</span>
+              Hi, I'm <span className="text-foreground">Ajay S</span>
             </h1>
             <p className="text-2xl md:text-3xl text-muted-foreground">
               Full-Stack Developer & ML Enthusiast
