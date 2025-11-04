@@ -73,7 +73,7 @@ const Contact = () => {
                 </p>
                 <div className="flex gap-3">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/Ajay-Subramani" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-muted rounded-lg hover:bg-primary hover:text-primary-foreground transition-smooth"
@@ -81,7 +81,7 @@ const Contact = () => {
                     <Github className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/ajay-subramani-2a504827b/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-muted rounded-lg hover:bg-primary hover:text-primary-foreground transition-smooth"

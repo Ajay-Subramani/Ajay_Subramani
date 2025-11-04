@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ShoppingCart, Store, Droplet, MessageCircle, TrendingUp, Github } from "lucide-react";
+import { ShoppingCart, Store, Droplet, MessageCircle, TrendingUp, Banknote, Github } from "lucide-react";
 import { useState } from "react";
 
 const Projects = () => {
@@ -18,8 +18,7 @@ const Projects = () => {
         "Built comprehensive product management dashboard for store administrators to manage inventory, track sales analytics, and monitor customer shopping patterns"
       ],
       status: "Ongoing",
-      icon: ShoppingCart,
-      githubUrl: "https://github.com"
+      icon: ShoppingCart
     },
     {
       title: "E-Commerce Website",
@@ -31,8 +30,7 @@ const Projects = () => {
         "Planning Spring Security authentication implementation with JWT tokens for enhanced security, user session management, and role-based access control for admin and customer portals"
       ],
       status: "Ongoing",
-      icon: Store,
-      githubUrl: "https://github.com"
+      icon: Store
     },
     {
       title: "EthLink - Linkio",
@@ -45,7 +43,7 @@ highlights: [
   "Example contract addresses and JSON parameters for testing"
 ],
       status: "Completed",
-      icon: Droplet,
+      icon: Banknote,
       githubUrl: "https://github.com/Ajay-Subramani/ethlinks_new"
     },
     {
@@ -72,7 +70,7 @@ highlights: [
       ],
       status: "Completed",
       icon: MessageCircle,
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com/Ajay-Subramani/Real-Time-Chat-Application"
     },
     {
       title: "Crime Rate Analyzer Tool",
@@ -172,21 +170,23 @@ highlights: [
                         ))}
                       </div>
                       
-                      <Button
-                        asChild
-                        size="sm"
-                        className="bg-primary hover:bg-primary/90"
-                      >
-                        <a 
+                        {project.githubUrl && (
+                        <Button
+                          asChild
+                          size="sm"
+                          className="bg-primary hover:bg-primary/90"
+                        >
+                          <a 
                           href={project.githubUrl} 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="flex items-center gap-2"
-                        >
+                          >
                           <Github className="h-4 w-4" />
                           View on GitHub
-                        </a>
-                      </Button>
+                          </a>
+                        </Button>
+                        )}
                     </div>
                   </div>
                 )}

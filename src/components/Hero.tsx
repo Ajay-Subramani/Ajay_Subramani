@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <div className="flex gap-4 justify-center md:justify-start pt-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Ajay-Subramani" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-smooth"
@@ -43,7 +43,7 @@ const Hero = () => {
                 <Github className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/ajay-subramani-2a504827b/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-smooth"
