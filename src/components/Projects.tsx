@@ -35,6 +35,20 @@ const Projects = () => {
       githubUrl: "https://github.com"
     },
     {
+      title: "EthLink - Linkio",
+      description: "EthLinks is a small prototype demonstrating simple interactions with Ethereum smart contracts. It contains mock data and examples for ERC‑20 token transfers, ERC‑20 approvals, and basic NFT minting flows. Use this project as a starting point for building a UI or backend that interacts with Ethereum contracts using Ethers.js or Web3.js.",
+      technologies: ["Node.js", "Ethers.js", "Next.js"],
+highlights: [
+  "Transfer ERC‑20 tokens between addresses",
+  "Approve ERC‑20 allowances for third‑party spending",
+  "Mint NFTs with a metadata URL",
+  "Example contract addresses and JSON parameters for testing"
+],
+      status: "Completed",
+      icon: Droplet,
+      githubUrl: "https://github.com/Ajay-Subramani/ethlinks_new"
+    },
+    {
       title: "Blood Bank Management System",
       description: "A comprehensive blood donor and inventory management platform efficiently handling 1000+ donor records and blood stock data with significantly improved response time. The system streamlines blood bank operations including donor registration, blood inventory tracking, request management, and automated notifications for critical stock levels.",
       technologies: ["Flask", "MySQL", "Bootstrap"],
@@ -45,7 +59,7 @@ const Projects = () => {
       ],
       status: "Completed",
       icon: Droplet,
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com/Ajay-Subramani/Blood-Bank-Managment-System"
     },
     {
       title: "Real-Time Chat Application",
@@ -71,14 +85,14 @@ const Projects = () => {
       ],
       status: "Completed",
       icon: TrendingUp,
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com/Ajay-Subramani/Crime-Rate-Predictor"
     }
   ];
 
   return (
     <section id="projects" className="py-20 px-4 relative">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920')] bg-cover bg-center opacity-5"></div>
-      <div className="container mx-auto max-w-6xl relative z-10">
+      <div className="container mx-auto max-w-8xl relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
           <span className="text-foreground">Projects</span>
         </h2>

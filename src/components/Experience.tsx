@@ -29,7 +29,7 @@ const Experience = () => {
 
   return (
     <section id="experience" className="py-20 px-4 bg-card">
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-8xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
           <span className="text-foreground">Experience</span>
         </h2>

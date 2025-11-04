@@ -45,9 +45,10 @@ const Navigation = () => {
           <a 
             href="#" 
             onClick={(e) => { e.preventDefault(); scrollToSection("#"); }}
-            className="text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent"
+           className="text-2xl font-bold text-white"
+
           >
-            Ajay S
+            
           </a>
 
           {/* Desktop Navigation */}

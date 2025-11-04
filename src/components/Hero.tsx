@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 gradient-hero relative">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920')] bg-cover bg-center opacity-5"></div>
-      <div className="container mx-auto max-w-6xl relative z-10">
+      <div className="container mx-auto max-w-7xl relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center md:text-left space-y-6 animate-slide-up">
             <h1 className="text-5xl md:text-7xl font-bold">
@@ -64,7 +64,7 @@ const Hero = () => {
               <img 
                 src={profilePhoto} 
                 alt="Ajay S" 
-                className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary shadow-glow brightness-75"
+                className="relative w-[28rem] h-[28rem] md:w-96 md:h-96 rounded-full object-cover border-4 border-primary shadow-glow brightness-75"
               />
             </div>
           </div>
