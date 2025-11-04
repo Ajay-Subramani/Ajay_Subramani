@@ -29,10 +29,10 @@ const Achievements = () => {
     <section id="achievements" className="py-20 px-4 bg-card">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-          Achievements & <span className="bg-gradient-accent bg-clip-text text-transparent">Certifications</span>
+          <span className="bg-gradient-accent bg-clip-text text-transparent">Achievements & Certifications</span>
         </h2>
         
-        <div className="grid md:grid-cols-3 gap-6 mb-8">
+        <div className="grid md:grid-cols-3 gap-6">
           <Card className="p-6 bg-secondary border-border shadow-card">
             <Award className="h-10 w-10 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-4">Certifications</h3>
@@ -75,15 +75,6 @@ const Achievements = () => {
             </div>
           </Card>
         </div>
-
-        <Card className="p-6 bg-gradient-accent text-primary-foreground shadow-glow">
-          <div className="text-center">
-            <h3 className="text-2xl font-bold mb-2">Problem Solving Excellence</h3>
-            <p className="text-lg opacity-90">
-              Active competitive programmer with 250+ solved problems across multiple platforms
-            </p>
-          </div>
-        </Card>
       </div>
     </section>
   );

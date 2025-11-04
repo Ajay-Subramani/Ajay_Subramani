@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-20 px-4 bg-card">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-          About <span className="bg-gradient-accent bg-clip-text text-transparent">Me</span>
+          <span className="bg-gradient-accent bg-clip-text text-transparent">About Me</span>
         </h2>
         
         <div className="grid md:grid-cols-3 gap-6 mb-12">
