@@ -3,29 +3,43 @@ import { Badge } from "@/components/ui/badge";
 import { Briefcase } from "lucide-react";
 
 const Experience = () => {
-  const experiences = [
-    {
-      title: "Full Stack Developer Intern",
-      company: "SRM Groups",
-      location: "Chennai",
-      period: "Jul 2025 – Present",
-      description: [
-        "Engineered 2+ full-stack applications that improved and digitalized the existing conventional system, increasing portal engagement by 20%",
-        "Integrated multiple frontend and backend frameworks, boosting web portal performance by 30%"
-      ],
-      current: true
-    },
-    {
-      title: "Web Developer",
-      company: "SMedia Influ (Own Startup)",
-      location: "Chennai",
-      period: "Jun 2023 – Sep 2023",
-      description: [
-        "Created 5+ landing pages for retail shops and portfolios using front-end tools"
-      ],
-      current: false
-    }
-  ];
+ const experiences = [
+  {
+    title: "Full-Stack Engineer Intern",
+    company: "SRM Groups",
+    location: "Chennai",
+    period: "July 2025 – December 2025",
+    description: [
+      "Developed and maintained full-stack medical portal features using React.js, Node.js, REST APIs, and MongoDB, integrating frontend workflows with backend services.",
+      "Implemented and consumed REST APIs for application workflows, handling HTTP requests, JSON data, authentication, and database operations.",
+      "Debugged frontend and backend issues and optimized application workflows using Git-based development practices.",
+    ],
+    current: false,
+  },
+
+  {
+    title: "Green Intern",
+    company: "1M1B (One Million for One Billion)",
+    location: "Online",
+    period: "August 2025 – October 2025",
+    description: [
+      "Built a MERN-based Carbon Footprint Tracker with interactive analytics for calculating and monitoring personal CO₂ emissions.",
+      "Implemented JWT authentication and secure session handling while integrating frontend components with backend REST services.",
+    ],
+    current: false,
+  },
+
+  {
+    title: "Web Developer",
+    company: "SMedia Influ",
+    location: "Chennai",
+    period: "June 2023 – September 2023",
+    description: [
+      "Developed responsive frontend interfaces and full-stack web features with a focus on usability and cross-device compatibility.",
+    ],
+    current: false,
+  },
+];
 
   return (
     <section id="experience" className="py-20 px-4 bg-card">

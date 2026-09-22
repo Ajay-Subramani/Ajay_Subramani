@@ -15,14 +15,16 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: "Home", href: "#" },
-    { label: "About", href: "#about" },
-    { label: "Skills", href: "#skills" },
-    { label: "Experience", href: "#experience" },
-    { label: "Projects", href: "#projects" },
-    { label: "Achievements", href: "#achievements" },
-    { label: "Contact", href: "#contact" }
-  ];
+  { label: "Home", href: "#" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
+  { label: "Achievements", href: "#achievements" },
+  { label: "Hackathons", href: "#hackathons" },
+  { label: "Open Source", href: "#opensource" },
+  { label: "Contact", href: "#contact" },
+];
 
   const scrollToSection = (href: string) => {
     if (href === "#") {

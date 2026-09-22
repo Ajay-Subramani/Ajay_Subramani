@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
@@ -13,25 +13,55 @@ const Hero = () => {
               Hi, I'm <span className="text-foreground">Ajay S</span>
             </h1>
             <p className="text-2xl md:text-3xl text-muted-foreground">
-              Full-Stack Developer & ML Enthusiast
+              Full-Stack Developer | AI/ML Engineer
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl">
-              Passionate about building scalable applications and intelligent software solutions. 
-              Creating efficient, user-centric systems that bridge technology with real-world impact.
+              Final year Computer Science Engineering student focused on building scalable software,
+              backend systems, AI-driven applications, and real-time solutions using modern
+              engineering practices.
             </p>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-glow">
-                <Mail className="mr-2 h-5 w-5" />
-                Get in Touch
+
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 shadow-glow"
+                asChild
+              >
+                <a href="mailto:ajaysubramani.career@gmail.com">
+                  <Mail className="mr-2 h-5 w-5" />
+                  Get in Touch
+                </a>
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
+
+              <Button
+                size="lg"
+                variant="outline"
                 className="border-primary text-primary hover:bg-primary/10"
-                onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() =>
+                  document.getElementById("projects")?.scrollIntoView({
+                    behavior: "smooth",
+                  })
+                }
               >
                 View Projects
               </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/10"
+                asChild
+              >
+                <a
+                  href="/Ajay_Subramani_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FileText className="mr-2 h-5 w-5" />
+                  Resume
+                </a>
+              </Button>
+
+            </div>
             </div>
             <div className="flex gap-4 justify-center md:justify-start pt-4">
               <a 

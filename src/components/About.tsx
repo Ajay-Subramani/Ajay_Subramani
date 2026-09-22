@@ -12,25 +12,37 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <Card className="p-6 bg-secondary border-border hover:border-primary transition-smooth shadow-card">
             <Code2 className="h-10 w-10 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Full-Stack Development</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              Software Engineering
+            </h3>
+
             <p className="text-muted-foreground">
-              Experienced in building scalable web applications using modern frameworks and technologies.
+              Building scalable software applications with strong foundations in
+              Data Structures, Algorithms, OOP, backend development, and databases.
             </p>
           </Card>
           
           <Card className="p-6 bg-secondary border-border hover:border-primary transition-smooth shadow-card">
             <Target className="h-10 w-10 text-accent mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Machine Learning</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              Full-Stack Development
+            </h3>
+
             <p className="text-muted-foreground">
-              Passionate about creating intelligent software solutions using ML and data analysis.
+              Developing full-stack and API-driven applications using Java, Spring Boot,
+              Node.js, React.js, SQL, and MongoDB.
             </p>
           </Card>
           
           <Card className="p-6 bg-secondary border-border hover:border-primary transition-smooth shadow-card">
             <GraduationCap className="h-10 w-10 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Continuous Learning</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              AI & Machine Learning
+            </h3>
+
             <p className="text-muted-foreground">
-              Always exploring new technologies and methodologies to stay ahead in the field.
+              Exploring AI-driven software using Python, LLMs, RAG, embeddings,
+              vector search, and machine learning techniques.
             </p>
           </Card>
         </div>

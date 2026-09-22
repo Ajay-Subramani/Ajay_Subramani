@@ -18,47 +18,149 @@ import bootstrapLogo from "@/assets/tech-logos/bootstrap.svg";
 
 const Skills = () => {
   const techLogos: { [key: string]: string } = {
-    "Python": pythonLogo,
-    "Java": javaLogo,
-    "C": cLogo,
-    "C++": cppLogo,
-    "JavaScript": jsLogo,
-    "TypeScript": tsLogo,
-    "React.js": reactLogo,
-    "React Native": reactLogo,
-    "Node.js": nodeLogo,
-    "MySQL": mysqlLogo,
-    "MongoDB": mongoLogo,
-    "Tailwind CSS": tailwindLogo,
-    "Docker": dockerLogo,
-    "Git": gitLogo,
-    "Spring Boot": springLogo,
-    "Flask": flaskLogo,
-    "Bootstrap": bootstrapLogo,
-  };
+  // Programming
+  "Python": pythonLogo,
+  "Java": javaLogo,
+  "C": cLogo,
+  "C++": cppLogo,
+  "JavaScript": jsLogo,
+  "TypeScript": tsLogo,
+
+  // Frontend
+  "React.js": reactLogo,
+  "React Native": reactLogo,
+  "Tailwind CSS": tailwindLogo,
+  "Bootstrap": bootstrapLogo,
+
+  // Backend
+  "Node.js": nodeLogo,
+  "Express.js":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+  "Spring Boot": springLogo,
+  "Flask": flaskLogo,
+  "FastAPI":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg",
+
+  // Databases
+  "MySQL": mysqlLogo,
+  "MongoDB": mongoLogo,
+  "SQLite":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg",
+
+  // DevOps / Tools
+  "Docker": dockerLogo,
+  "Git": gitLogo,
+  "GitHub":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+  "AWS":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+  "Vercel":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+
+  // AI / ML
+  "PyTorch":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+  "OpenCV":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg",
+  "Pandas":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
+  "NumPy":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
+  "Scikit-learn":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg",
+
+  // Other
+  "Postman":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+};
 
   const skillCategories = [
-    {
-      title: "Languages",
-      skills: ["Python", "Java", "C", "C++", "JavaScript", "TypeScript", "SQL", "HTML", "CSS"]
-    },
-    {
-      title: "Frontend",
-      skills: ["React.js", "Tailwind CSS", "Bootstrap", "React Native"]
-    },
-    {
-      title: "Backend",
-      skills: ["Node.js", "Spring Boot", "Flask", "Express.js", "REST APIs"]
-    },
-    {
-      title: "Database & Tools",
-      skills: ["MySQL", "MongoDB", "Git", "Docker", "Vercel"]
-    },
-    {
-      title: "Data & ML",
-      skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "Streamlit"]
-    }
-  ];
+  {
+    title: "Programming Languages",
+    skills: [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+    ],
+  },
+
+  {
+    title: "Core Computer Science",
+    skills: [
+      "Data Structures & Algorithms",
+      "OOP",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks",
+    ],
+  },
+
+  {
+    title: "Backend & APIs",
+    skills: [
+      "Spring Boot",
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "Flask",
+      "REST APIs",
+      "HTTP",
+      "JSON",
+    ],
+  },
+
+  {
+    title: "Frontend",
+    skills: [
+      "React.js",
+      "React Native",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Bootstrap",
+    ],
+  },
+
+  {
+    title: "Databases",
+    skills: [
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+    ],
+  },
+
+  {
+    title: "AI / Machine Learning",
+    skills: [
+      "LangChain",
+      "RAG",
+      "FAISS",
+      "LLMs",
+      "PyTorch",
+      "OpenCV",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+    ],
+  },
+
+  {
+    title: "DevOps & Tools",
+    skills: [
+      "Git",
+      "GitHub",
+      "Docker",
+      "CI/CD",
+      "AWS",
+      "Vercel",
+      "Postman",
+    ],
+  },
+];
 
   return (
     <section id="skills" className="py-20 px-4 relative">
